@@ -1375,7 +1375,7 @@ function Home() {
       </section>
 
       {/* ========== FAQ SECTION ========== */}
-      <section id="faq" style={{ padding: "120px 0", background: "#0a0a0a" }}>
+      <section id="FAQ" style={{ padding: "120px 0", background: "#0a0a0a" }}>
         <Container>
           <div style={{ textAlign: "center", marginBottom: "60px" }}>
             <h2
