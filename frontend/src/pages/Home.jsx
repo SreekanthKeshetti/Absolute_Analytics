@@ -39,7 +39,7 @@ const bottomVariant = {
   },
 };
 
-// Animation Variants for feture cards
+// Animation Variants for feature cards
 
 function Home() {
   // State for FAQ section
@@ -295,25 +295,28 @@ function Home() {
           <h1
             style={{
               fontSize: "5rem",
-              fontWeight: "300",
-              marginBottom: "1.5rem",
-              background:
-                "linear-gradient(180deg, #ffffff 0%, rgba(255,255,255,0.6) 100%)",
+              fontWeight: "900",
+              background: "linear-gradient(90deg, #ffffff 0%, #70befa 100%)",
               WebkitBackgroundClip: "text",
               WebkitTextFillColor: "transparent",
-              textShadow: "0 0 20px rgba(255,255,255,0.15)",
+              textAlign: "center",
+              letterSpacing: "-1px",
+              marginBottom: "1.2 rem",
             }}
           >
             AbsoluteAnalytics
           </h1>
           <p
             style={{
-              fontSize: "1.5rem",
+              fontSize: "1rem",
               color: "rgba(255,255,255,0.7)",
-              marginBottom: "1.2rem",
+              marginBottom: "1.rem",
+              maxWidth: "800",
             }}
           >
-            The 8th sense of the market.
+            {/* The 8th sense of the market. */}
+            Real-time alerts and institutional-grade research for Nifty, Gold,
+            Crude, and select equities. Minimal noise. Maximum edge.
           </p>
           <p
             style={{
@@ -393,14 +396,38 @@ function Home() {
         <Container>
           <h2
             style={{
+              // fontSize: "clamp(3rem, 6vw, 5rem)",
+              // fontWeight: "300",
+              // marginBottom: "80px",
+              // color: "#fff",
               fontSize: "clamp(3rem, 6vw, 5rem)",
-              fontWeight: "300",
-              marginBottom: "80px",
-              color: "#fff",
+              fontWeight: "500",
+              background: "linear-gradient(90deg, #ffffff 0%, #70befa 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              textAlign: "center",
+              letterSpacing: "-1px",
+              marginBottom: "1.2 rem",
             }}
           >
-            Features
+            {/* Features */}
+            Built for Serious Traders
           </h2>
+          <p
+            style={{
+              fontSize: "1.05rem",
+              lineHeight: "1.6",
+              color: "rgba(255, 255, 255, 0.65)",
+              maxWidth: "1100px",
+              margin: "4 auto",
+              textAlign: "center",
+              wordSpacing: "2px",
+              letterSpacing: "0.3px",
+            }}
+          >
+            Algorithmic precision plus trader intuition. Liquidity decoys,
+            volume traps, and directional bias — mapped across timeframes.
+          </p>
 
           {/* Top Row - 2 Cards */}
           <Row className="mb-4">
